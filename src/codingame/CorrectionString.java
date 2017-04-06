@@ -23,7 +23,7 @@ public class CorrectionString {
 
 //		System.out.println(valideString1("()[]("));
 //		System.out.println(valideString1("()[[(()[()]())]()]"));
-//		System.out.println(valideString1("[()((()[]()[()]))()]"));
+		System.out.println(valideString1("[()((()[]()[()]))()]"));
 		
 		System.out.println(validateString2("[()((()[]()[()]))()]"));
 		System.out.println(validateString2("()[[(()[()]())]()]"));

@@ -9,6 +9,9 @@ public class FindFileInDirectory {
 	public static void main(String[] args) {
 
 		System.out.println("herre: " +findFile2("iTunes Library.itl", "/Users/khaitq/"));
+		
+		System.out.println("herre: " +findFile("iTunes Library.itl", "/Users/khaitq/"));
+
 	}
 	
 	private static String findFile(String fileName, String directory){
