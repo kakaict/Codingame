@@ -6,6 +6,8 @@ import java.util.List;
 public class Dancing {
 
 	/*
+	modif 1 remote
+	
 	The first, in position 0 
 	+Step 1: d1 =  1,  he is in position 1
 	+Step 2: d2 = - 2, => move to position -1
