@@ -13,12 +13,9 @@ public class ClosetZero {
 	
 	
 	public static void main(String[] args){
-
 		System.out.println(findCloset2(new int[] {13,4,9, -7 }));
 		System.out.println(findCloset2(new int[] {5,13,34,9, -5 }));
-		
 	}
-	
 	
 	public static int findCloset2(int[] ints){
 		
