@@ -1,6 +1,8 @@
 package java8;
 
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 import junit.framework.Assert;
@@ -11,7 +13,7 @@ import org.junit.Test;
 public class LambdaExpression {
 	
 	/*       
-	 *  (argument) -> {body} 
+	 * Syntax:  (argument) -> {body} 
 	 *
 	 */
 	
@@ -22,14 +24,14 @@ public class LambdaExpression {
 	
 	private  static void test1(){
 
-		WorkerInterface w = () -> System.out.print(32);
+		WorkerInterface w = () -> System.out.println(32);
 		w.doSomeWork();
 		
 		List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
 		
-		list.forEach( name -> System.out.println(name));
+		list.forEach(name -> System.out.println(name));
 		
-		String[] players = {"an", "fdss", "QDSSDDS", "fds", "2231324"};
+		String[] players = {"an", "fdss", "abgd", "fds", "2231324"};
 		
 		Arrays.sort(players, (String s1,String s2) -> {
 			return s1.length() - s2.length();
@@ -43,13 +45,9 @@ public class LambdaExpression {
 	public void testSum(){
 //		Assert.assertEquals(5, sum(2, 3));
 		
-		DoSumInterface d = (int t) ->  t* 5;
+		DoSumInterface d = (int a, int b) ->  a + b;
 		
-		Assert.assertEquals(50, d.dosum(10));
-	}
-	
-	private int sum(int a, int b){
-		return a + b;
+		Assert.assertEquals(50, d.dosum(10,40));
 	}
 	
 	@FunctionalInterface
@@ -59,9 +57,7 @@ public class LambdaExpression {
 	
 	@FunctionalInterface
 	public interface DoSumInterface {
-		public int dosum(int t);
+		public int dosum(int a, int b);
 	}
 	
-	
-
 }
