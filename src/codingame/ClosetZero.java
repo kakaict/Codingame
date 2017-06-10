@@ -24,7 +24,6 @@ public class ClosetZero {
         if (ints.length == 0) {
              return 0;
         } else {
-        	
         	result = ints[0];
         	for( int i = 1; i< ints.length; i ++){
                 int element = ints[i];
