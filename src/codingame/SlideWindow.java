@@ -7,20 +7,6 @@ public class SlideWindow {
 
 	public static void main(String[] args) {
 		
-		
-		long s = 79l;
-		
-		System.out.println(s/10);
-
-		System.out.println(s%10);
-		
-		System.out.println(9/5);
-
-		System.out.println(9%5);
-
-		
-		System.out.println("======================");
-		
 		List<Integer> wind = new LinkedList<Integer>();
 		
         int [] testData = {1,2,3,4,5,7};

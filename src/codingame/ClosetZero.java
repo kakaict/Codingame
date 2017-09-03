@@ -19,6 +19,7 @@ public class ClosetZero {
 	
 	public static int findCloset2(int[] ints){
 		
+		int [] t = new int[]{};
         int result;
         
         if (ints.length == 0) {

@@ -19,9 +19,9 @@ public class Dancing {
 	public static void main(String[] args) {
 
 
-		System.out.println(getPositionAtStep(459));
+		System.out.println(getPositionAtStep(700));
 		
-		System.out.println(getPosition(459));
+		System.out.println(getPosition(700));
 	
 		
 	}

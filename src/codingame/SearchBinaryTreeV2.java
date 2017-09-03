@@ -27,7 +27,7 @@ public class SearchBinaryTreeV2 {
 
 		
 		
-		 Node node =  root.findNode(12);
+		 Node node =  root.findNode(14);
 		 
 		 System.out.println(node.value);
 		 

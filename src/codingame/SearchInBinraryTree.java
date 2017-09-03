@@ -1,5 +1,7 @@
 package codingame;
 
+import java.util.Arrays;
+
 
 /*
  * Find the distance between 2 nodes in binary tree.
@@ -12,6 +14,16 @@ package codingame;
 public class SearchInBinraryTree {
 
 	public static void main(String[] args) {
+
+		System.out.println(5>>1);
+		
+		
+		int[] t = new int[]{1,2,4,3};
+		int s = t.length + (t.length >>1);
+		t = Arrays.copyOf(t, s);
+		
+		
+		System.out.println(t);
 
 		
 		Node root = new Node(10);
