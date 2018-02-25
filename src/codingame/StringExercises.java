@@ -18,7 +18,7 @@ public class StringExercises {
 		Arrays.sort(a);
 		System.out.println(a[a.length - 1]);
 		
-		ArrayList l = new ArrayList<Integer>();
+		ArrayList<Integer> l = new ArrayList<Integer>();
 		
 		l.ensureCapacity(5);
 		
