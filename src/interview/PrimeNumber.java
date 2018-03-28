@@ -24,8 +24,11 @@ public class PrimeNumber {
 	 */ 
 	private static boolean isPrimeNumber(int n) {
 		
-		int sqrtValue =  (int) Math.sqrt(n);
-		for (int i = 2; i<= sqrtValue; i++) {
+		if (n %2 == 0) {
+			return false;
+		}
+		
+		for (int i = 2; i<= n/2; i = i+ 2) {
 			if (n%i == 0) {
 				return false;
 			}
