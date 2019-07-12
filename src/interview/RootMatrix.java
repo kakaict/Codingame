@@ -1,10 +1,10 @@
 package interview;
 
-import java.util.Random;
 
 /**
 *
-*khaitq on 9 avr. 2018
+*@author khaitq on 9 avr. 2018
+*@version 1
 */
 
 public class RootMatrix {
